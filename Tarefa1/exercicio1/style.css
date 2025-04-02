@@ -1,4 +1,4 @@
-/* Estilo base da página */
+/* Corpo da página */
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-/* Cabeçalhos */
+/* Títulos */
 h1,
 h2,
 h3 {
@@ -23,7 +23,7 @@ form {
   border-radius: 8px;
 }
 
-/* Rótulos dos inputs */
+/* Rótulos */
 label {
   display: block;
   margin-bottom: 10px;
@@ -51,12 +51,12 @@ button {
   cursor: pointer;
 }
 
-/* Botão ao passar o mouse */
+/* Efeito hover do botão */
 button:hover {
   background-color: #ff0800;
 }
 
-/* Tabela */
+/* Tabelas */
 table {
   width: 100%;
   margin-top: 15px;
@@ -75,7 +75,7 @@ th {
   background-color: #f0f0f0;
 }
 
-/* Área de relatório */
+/* Área do relatório */
 #relatorio {
   margin-top: 20px;
   padding: 15px;
