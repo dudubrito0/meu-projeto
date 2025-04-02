@@ -1,4 +1,4 @@
-/* Estilo geral do corpo da página */
+/* Estilo base da página */
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
@@ -7,7 +7,9 @@ body {
 }
 
 /* Cabeçalhos */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #ff0800;
 }
 
@@ -21,7 +23,7 @@ form {
   border-radius: 8px;
 }
 
-/* Rótulos dos campos */
+/* Rótulos dos inputs */
 label {
   display: block;
   margin-bottom: 10px;
@@ -32,7 +34,7 @@ input,
 select {
   width: 100%;
   padding: 6px;
-  margin: 4px 0 10px 0;
+  margin: 4px 0 10px;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -49,8 +51,9 @@ button {
   cursor: pointer;
 }
 
+/* Botão ao passar o mouse */
 button:hover {
-  background-color: #ff0800; /* mesma cor para manter consistência visual */
+  background-color: #ff0800;
 }
 
 /* Tabela */
@@ -72,7 +75,7 @@ th {
   background-color: #f0f0f0;
 }
 
-/* Seção de relatório */
+/* Área de relatório */
 #relatorio {
   margin-top: 20px;
   padding: 15px;
