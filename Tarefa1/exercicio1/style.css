@@ -13,7 +13,7 @@ h3 {
   color: #ff0800;
 }
 
-/* Formulário */
+/* Estilo do formulário */
 form {
   margin-bottom: 20px;
   padding: 15px;
@@ -35,9 +35,9 @@ select {
   width: 100%;
   padding: 6px;
   margin: 4px 0 10px;
-  box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 /* Botões */
@@ -56,12 +56,12 @@ button:hover {
   background-color: #ff0800;
 }
 
-/* Tabelas */
+/* Tabela */
 table {
   width: 100%;
   margin-top: 15px;
-  border-collapse: collapse;
   background-color: #fff;
+  border-collapse: collapse;
 }
 
 th,
@@ -75,7 +75,7 @@ th {
   background-color: #f0f0f0;
 }
 
-/* Área do relatório */
+/* Relatório */
 #relatorio {
   margin-top: 20px;
   padding: 15px;
